@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION SENDER="ili2pg-4.3.2-70c2c19de9928155e48437dedb68f5eef82896a7" VERSION="2.3">
+    <MODELS>
+      <MODEL NAME="SO_ARP_digiPlan_Publikation_20220402" VERSION="2022-04-02" URI="https://geo.so.ch/models/AGI"/>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <SO_ARP_digiPlan_Publikation_20220402.Digiplan BID="SO_ARP_digiPlan_Publikation_20220402.Digiplan">
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="f5028fca-b359-4fa5-87d2-57f513494acb">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Umzonung Parzellen GB Nrn. 115 und 117 (Ergänzung Bauzonenplan) / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2002/2404</offizielleNummer>
+        <RRBNr>2002/2404</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-48-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2002-12-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600125</minX>
+        <minY>1215775</minY>
+        <maxX>2600203</maxX>
+        <maxY>1215834</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="ed3a2c34-eee2-4ef2-b6a0-94a1d32bd171">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Ergänzung Bauzonen- und Erschliessungsplan; Einzonung Parzelle GB Nr. 271 in Gewerbezone / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2001/2269</offizielleNummer>
+        <RRBNr>2001/2269</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-47-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2001-11-27</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601094</minX>
+        <minY>1215623</minY>
+        <maxX>2601145</maxX>
+        <maxY>1215646</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="54c7b514-33fa-4d56-8a89-98fe209ef57f">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen (Oberramsern): Änderung Bauzonenplan "Dorfstrasse"</offiziellerTitel>
+        <offizielleNummer>2012/1036</offizielleNummer>
+        <RRBNr>2012/1036</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-52-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2012-05-29</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601817</minX>
+        <minY>1218106</minY>
+        <maxX>2601927</maxX>
+        <maxY>1218188</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="2a28cf0f-4480-400c-b662-6778585925c5">
+        <Titel>Teilzonenplan</Titel>
+        <offiziellerTitel>Änderung Bauzonenplan Dorfstrasse</offiziellerTitel>
+        <offizielleNummer>34-52-P</offizielleNummer>
+        <Typ>Teilzonenplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Plaene/34-52-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2012-05-29</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="85b4e41f-d5a0-4f78-b943-c837c9e256ed">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan GB. Nr. 131</offiziellerTitel>
+        <offizielleNummer>34-16-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Plaene/34-16-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1987-06-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600061</minX>
+        <minY>1215552</minY>
+        <maxX>2600204</maxX>
+        <maxY>1215622</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="b62baf78-8eba-43d3-86a1-ed40413c388e">
+        <Titel>Bau- und Zonenreglement</Titel>
+        <offiziellerTitel>Einwohnergemeinde Balm Baureglement Zonenreglement</offiziellerTitel>
+        <offizielleNummer>020_BZR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/20-Balm-bei-Messen/Reglemente/020_BZR.pdf</TextImWeb>
+        <Abkuerzung>BZR</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2001-09-25</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2597967</minX>
+        <minY>1216083</minY>
+        <maxX>2601136</maxX>
+        <maxY>1217789</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="ff3f20c0-dc1e-4f86-877f-00748a10da52">
+        <Titel>Baureglement</Titel>
+        <offiziellerTitel>Einwohnergemeinde Brunnenthal Bau- und Zonenreglement</offiziellerTitel>
+        <offizielleNummer>024_BR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/24-Brunnenthal/Reglemente/024_BR.pdf</TextImWeb>
+        <Abkuerzung>BR</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2007-04-03</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601168</minX>
+        <minY>1213768</minY>
+        <maxX>2602769</maxX>
+        <maxY>1216051</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="5d084eb0-4a03-4db5-8f03-ff0587fad0c6">
+        <Titel>Richtplantext</Titel>
+        <offiziellerTitel>Kanton Solothurn - Richtplantext / Sachbereiche: Landschaft (L) / L-2.2 Kantonale Uferschutzzone</offiziellerTitel>
+        <offizielleNummer>L-2.2</offizielleNummer>
+        <Typ>undefiniert</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/200-Kanton/Richtplan/L-2_2.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2017-09-12</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="ad9cf580-2cdb-46b6-8b14-307237d5d2ce">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan Hubelweg mit Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>34-33-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Plaene/34-33-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1994-11-14</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600804</minX>
+        <minY>1215256</minY>
+        <maxX>2600934</maxX>
+        <maxY>1215332</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="8d25ec15-afdc-4de9-a9d7-4d5104c04da4">
+        <Titel>Sonderbauvorschrift</Titel>
+        <offiziellerTitel>Sonderbauvorschriften zum Gestaltungsplan Hubelweg</offiziellerTitel>
+        <offizielleNummer>34-33-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Sonderbauvorschriften/34-33-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1994-11-14</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600804</minX>
+        <minY>1215256</minY>
+        <maxX>2600934</maxX>
+        <maxY>1215332</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="94ea4ea3-7303-4473-be45-7d611c6bb5e6">
+        <Titel>Sonderbauvorschriften</Titel>
+        <offiziellerTitel>Sonderbauvorschriften zum Gestaltungsplan Hauptstrasse, GB Nr. 148/149</offiziellerTitel>
+        <offizielleNummer>34-34-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Sonderbauvorschriften/34-34-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1997-10-20</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600066</minX>
+        <minY>1215469</minY>
+        <maxX>2600178</maxX>
+        <maxY>1215521</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="232c6fa8-5915-4374-a435-2bbcdd9be87a">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan "Hauptstrasse" Parz. GB Nr. 148 / 149 mit Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>34-34-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Plaene/34-34-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1997-10-20</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600066</minX>
+        <minY>1215469</minY>
+        <maxX>2600178</maxX>
+        <maxY>1215521</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="3d47cd4f-3149-42a8-8240-4b2fe62765d4">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan Eichholz mit Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>34-35-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Plaene/34-35-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1999-03-30</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600008</minX>
+        <minY>1215838</minY>
+        <maxX>2600087</maxX>
+        <maxY>1215934</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="fc605b17-7952-451e-9131-b7ddea7bfb06">
+        <Titel>Sonderbauvorschriften</Titel>
+        <offiziellerTitel>Sonderbauvorschriften zum Gestaltungsplan Eichholz</offiziellerTitel>
+        <offizielleNummer>34-35-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Sonderbauvorschriften/34-35-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1999-03-30</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600008</minX>
+        <minY>1215838</minY>
+        <maxX>2600087</maxX>
+        <maxY>1215934</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="ccbaf152-c12e-4ef4-b788-f8705a2f0560">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan mit Sonderbauvorschriften Feuerwehrmagazin</offiziellerTitel>
+        <offizielleNummer>34-55-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Plaene/34-55-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2015-02-24</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600238</minX>
+        <minY>1215578</minY>
+        <maxX>2600290</maxX>
+        <maxY>1215653</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="bf968b9d-36f5-46f4-af7e-03a2fc7d4350">
+        <Titel>Sonderbauvorschrift</Titel>
+        <offiziellerTitel>Sonderbauvorschriften zum Gestaltungsplan Feuerwehrmagazin</offiziellerTitel>
+        <offizielleNummer>34-55-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Sonderbauvorschriften/34-55-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2015-02-24</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600238</minX>
+        <minY>1215578</minY>
+        <maxX>2600290</maxX>
+        <maxY>1215653</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="b2c708cc-c2fe-4cf2-a0c3-ab72c577f623">
+        <Titel>Zonen- und Gestaltungsplan</Titel>
+        <offiziellerTitel>Zonen- und Gestaltungsplan "Chräienberg"</offiziellerTitel>
+        <offizielleNummer>24-6-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/24-Brunnenthal/Plaene/24-6-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1992-09-15</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2602085</minX>
+        <minY>1215968</minY>
+        <maxX>2602192</maxX>
+        <maxY>1216051</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="80a8a202-0761-4ddb-b080-a8aa92244f13">
+        <Titel>Zonen- und Gestaltungsplan</Titel>
+        <offiziellerTitel>Zonenplan-Änderung Zonen- und Gestaltungsplan "Chräienberg"</offiziellerTitel>
+        <offizielleNummer>24-8-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/24-Brunnenthal/Plaene/24-8-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1993-02-23</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2602085</minX>
+        <minY>1215968</minY>
+        <maxX>2602192</maxX>
+        <maxY>1216051</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="5c469e43-4ac3-44be-a1f4-918af658b9c7">
+        <Titel>Erschliessungs- und Gestaltungsplan</Titel>
+        <offiziellerTitel>Erschliessungs- und Gestaltungsplan Rainacker</offiziellerTitel>
+        <offizielleNummer>37-14-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/37-Oberramsern/Plaene/37-14-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2009-03-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601862</minX>
+        <minY>1218245</minY>
+        <maxX>2601988</maxX>
+        <maxY>1218374</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="45994cdd-374c-477d-8e56-f096b2d95f01">
+        <Titel>Sonderbauvorschrift</Titel>
+        <offiziellerTitel>Gemeinde Oberramsern Erschliessungs- und Gestaltungsplan Rainacker Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>37-14-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/37-Oberramsern/Sonderbauvorschriften/37-14-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2009-03-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601862</minX>
+        <minY>1218245</minY>
+        <maxX>2601988</maxX>
+        <maxY>1218374</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="3a9c21d6-96f9-46c3-9c6e-29102476d40c">
+        <Titel>Baureglement</Titel>
+        <offiziellerTitel>Einwohnergemeinde Messen Baureglement</offiziellerTitel>
+        <offizielleNummer>034_BR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Reglemente/034_BR.pdf</TextImWeb>
+        <Abkuerzung>BR</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1999-05-18</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2597913</minX>
+        <minY>1213703</minY>
+        <maxX>2602769</maxX>
+        <maxY>1218847</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="4f84e94f-4346-4ebe-85ad-04d2147b7e8b">
+        <Titel>Zonenreglement</Titel>
+        <offiziellerTitel>Einwohnergemeinde Messen Zonenreglement</offiziellerTitel>
+        <offizielleNummer>034_ZR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Reglemente/034_ZR.pdf</TextImWeb>
+        <Abkuerzung>ZR</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1999-05-18</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2597913</minX>
+        <minY>1213703</minY>
+        <maxX>2602769</maxX>
+        <maxY>1218847</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="5abdd215-5c61-4d5d-a1b5-5d952c9dc35f">
+        <Titel>Bau- und Zonenreglement</Titel>
+        <offiziellerTitel>Einwohnergemeinde Oberramsern Bau- und Zonenreglement</offiziellerTitel>
+        <offizielleNummer>037_BZR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/37-Oberramsern/Reglemente/037_BZR.pdf</TextImWeb>
+        <Abkuerzung>BZR</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1986-10-28</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600987</minX>
+        <minY>1217239</minY>
+        <maxX>2602757</maxX>
+        <maxY>1218608</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="31a98af0-93ad-47b5-a957-3d74560cea98">
+        <Titel>Zonenreglement</Titel>
+        <offiziellerTitel>Gemeinde Oberramsern Zonenreglement</offiziellerTitel>
+        <offizielleNummer>037_ZR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/37-Oberramsern/Reglemente/037_ZR.pdf</TextImWeb>
+        <Abkuerzung>ZR</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1986-10-28</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600987</minX>
+        <minY>1217239</minY>
+        <maxX>2602757</maxX>
+        <maxY>1218608</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="160208ad-8236-4d41-a45e-03e2711d1402">
+        <Titel>Zonenreglement</Titel>
+        <offiziellerTitel>Zonenreglement Einwohnergemeinde Brunnenthal</offiziellerTitel>
+        <offizielleNummer>024_ZR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/24-Brunnenthal/Reglemente/024_ZR.pdf</TextImWeb>
+        <Abkuerzung>ZR</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2007-04-03</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601168</minX>
+        <minY>1213768</minY>
+        <maxX>2602769</maxX>
+        <maxY>1216051</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="5df60f6b-7528-4bae-9291-819d4c7e0ba3">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Änderung Bauzonen- und Erschliessungsplan "Feuerwehrmagazin"</offiziellerTitel>
+        <offizielleNummer>2014/688</offizielleNummer>
+        <RRBNr>2014/688</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-54-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2014-04-22</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600238</minX>
+        <minY>1215578</minY>
+        <maxX>2600290</maxX>
+        <maxY>1215653</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="b69a332e-dacb-4bce-83ea-aa5d30c4c943">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>EG Messen: Revision der Ortsplanung / Genehmigung und Behandlung der Beschwerden</offiziellerTitel>
+        <offizielleNummer>1987/1812</offizielleNummer>
+        <RRBNr>1987/1812</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-11_16-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1987-06-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600061</minX>
+        <minY>1215552</minY>
+        <maxX>2600204</maxX>
+        <maxY>1215622</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="e08fd8a7-91eb-4b68-8678-0a09954f87a3">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Gestaltungsplan Hauptstrasse, GB Nr. 148/149 mit Sonderbauvorschriften / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1997/2512</offizielleNummer>
+        <RRBNr>1997/2512</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-34-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1997-10-20</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600066</minX>
+        <minY>1215469</minY>
+        <maxX>2600178</maxX>
+        <maxY>1215521</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="11930ee5-cccd-4e4d-8606-fd7d5d3e63c9">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Gestaltungsplan "Hubelweg" mit Sonderbauvorschriften / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1994/3233</offizielleNummer>
+        <RRBNr>1994/3233</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-33-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1994-11-14</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600804</minX>
+        <minY>1215256</minY>
+        <maxX>2600934</maxX>
+        <maxY>1215332</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="e906bd8a-9555-4ea7-b3fe-25edef0951ea">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Gestaltungsplan "Feuerwehrmagazin" mit Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>2015/203</offizielleNummer>
+        <RRBNr>2015/203</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-55-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2015-02-24</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600238</minX>
+        <minY>1215578</minY>
+        <maxX>2600290</maxX>
+        <maxY>1215653</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="6056a7be-f280-4d05-8413-e17892e68da1">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Brunnenthal: Änderung des Zonen- und Gestaltungsplanes "Chräienberg" / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1993/558</offizielleNummer>
+        <RRBNr>1993/558</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/24-Brunnenthal/Entscheide/24-8-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1993-02-23</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2602085</minX>
+        <minY>1215968</minY>
+        <maxX>2602192</maxX>
+        <maxY>1216051</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="de44ecf3-e4de-49c1-b781-07e6c83ffc22">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Gestaltungsplan Eichholz mit Sonderbauvorschriften / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1999/587</offizielleNummer>
+        <RRBNr>1999/587</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-35-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1999-03-30</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600008</minX>
+        <minY>1215838</minY>
+        <maxX>2600087</maxX>
+        <maxY>1215934</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="7cdb8a72-6102-4a44-a1a0-22c16cbf2342">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Oberramsern: Revision der Ortsplanung, Erschliessungs- und Gestaltungsplan Rainacker mit Sonderbauvorschriften / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2009/561</offizielleNummer>
+        <RRBNr>2009/561</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/37-Oberramsern/Entscheide/37-8-9-10-11-12-13-14-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2009-03-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601862</minX>
+        <minY>1218245</minY>
+        <maxX>2601988</maxX>
+        <maxY>1218374</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="73618167-5921-4a76-9cb3-d49c2bef9c94">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Brunnenthal: Zonen- und Gestaltungsplan "Chräienberg" / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1992/3002</offizielleNummer>
+        <RRBNr>1992/3002</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/24-Brunnenthal/Entscheide/24-6-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1992-09-15</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2602085</minX>
+        <minY>1215968</minY>
+        <maxX>2602192</maxX>
+        <maxY>1216051</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="789476f1-29d1-4070-9e29-a893007c723c">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Oberramsern: Erlass der Ortsplanung / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1986/3248</offizielleNummer>
+        <RRBNr>1986/3248</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/37-Oberramsern/Entscheide/37-4-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1986-10-28</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600987</minX>
+        <minY>1217239</minY>
+        <maxX>2602757</maxX>
+        <maxY>1218608</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="7e49ba25-2a6f-4ef0-8b7c-34905f4ffb60">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Revision der Ortsplanung / Behandlung der Beschwerden / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1999/1021</offizielleNummer>
+        <RRBNr>1999/1021</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-36_45-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1999-05-18</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2597913</minX>
+        <minY>1213703</minY>
+        <maxX>2602769</maxX>
+        <maxY>1218847</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="5c2de28b-cb64-41c6-95e1-89ec8f38d823">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Neuklassierung Räzlirain - Bernstrasse (Erschliessungsplan/Strassenklassierung) / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2002/2407</offizielleNummer>
+        <RRBNr>2002/2407</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-49-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2002-12-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600699</minX>
+        <minY>1215154</minY>
+        <maxX>2600815</maxX>
+        <maxY>1215477</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="7d028c5d-12d2-4c9c-9554-9f32f400bf49">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Aufhebung Gestaltungsplan "Stähliweg" und Gestaltungsplanpflicht Stähliweg GB Nr. 184, neuer Erschliessungsplan / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2007/1840</offizielleNummer>
+        <RRBNr>2007/1840</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-51-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2007-11-06</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600448</minX>
+        <minY>1215398</minY>
+        <maxX>2600532</maxX>
+        <maxY>1215478</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="c4850f1f-28dc-455a-9a52-6ea088889990">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan mit Sonderbauvorschriften Stähliweg / Rätzlirain</offiziellerTitel>
+        <offizielleNummer>34-17-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Plaene/34-17-P.pdf</TextImWeb>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1988-08-16</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600647</minX>
+        <minY>1215230</minY>
+        <maxX>2600806</maxX>
+        <maxY>1215323</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="4d6d98bc-ec96-4e83-a3d3-9503c5d00c36">
+        <Titel>Sonderbauvorschrift</Titel>
+        <offiziellerTitel>Einwohnergemeinde Messen: Sonderbauvorschriften zum Gestaltungsplan Stähliweg/Rätzlirain</offiziellerTitel>
+        <offizielleNummer>34-17-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Sonderbauvorschriften/34-17-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1988-08-16</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600647</minX>
+        <minY>1215230</minY>
+        <maxX>2600806</maxX>
+        <maxY>1215323</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="3d32fe77-ab5d-40f8-8e82-5fcff5c23782">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Änderung Bauzonen- und Erschliessungsplan "Burgstrasse 192 / GB Nr. 442"</offiziellerTitel>
+        <offizielleNummer>2014/770</offizielleNummer>
+        <RRBNr>2014/770</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-53-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2014-04-29</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601950</minX>
+        <minY>1214803</minY>
+        <maxX>2602033</maxX>
+        <maxY>1214894</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="2ea01682-b60a-4011-b6fe-12198887d41d">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Messen: Gestaltungsplan "Stähliweg/Rätzlirain" / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1988/2311</offizielleNummer>
+        <RRBNr>1988/2311</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/34-Messen/Entscheide/34-17-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>1988-08-16</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2600647</minX>
+        <minY>1215230</minY>
+        <maxX>2600806</maxX>
+        <maxY>1215323</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="775a14d8-e9b2-4f76-9fd6-7d3bbf8dc0e8">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Balm bei Messen: Revision der Ortsplanung / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2001/1936</offizielleNummer>
+        <RRBNr>2001/1936</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/20-Balm-bei-Messen/Entscheide/20-7-11-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2001-09-25</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2597967</minX>
+        <minY>1216083</minY>
+        <maxX>2601136</maxX>
+        <maxY>1217789</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="417bed59-85af-47a1-b071-d1bc66bd257e">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Brunnenthal: Revision der Ortsplanung / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2007/527</offizielleNummer>
+        <RRBNr>2007/527</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/24-Brunnenthal/Entscheide/24-9_14-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2457</BFSNr>
+        <Gemeindename>Messen</Gemeindename>
+        <publiziertAb>2007-04-03</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2601168</minX>
+        <minY>1213768</minY>
+        <maxX>2602769</maxX>
+        <maxY>1216051</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="6c563335-cf5b-4ec7-a215-a6d3f530e197">
+        <Titel>Erschliessungsplan</Titel>
+        <offiziellerTitel>Erschliessungsplan, Strassen- und Baulinienplan Umgestaltung und Sanierung Ifenthalerstrasse</offiziellerTitel>
+        <offizielleNummer>98-30-P</offizielleNummer>
+        <Typ>Erschliessungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Plaene/98-30-P.pdf</TextImWeb>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2015-08-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632646</minX>
+        <minY>1247405</minY>
+        <maxX>2632685</maxX>
+        <maxY>1247521</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="be9ac0c8-f268-49cb-807b-1bcf9b5407e3">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-lfenthal: Kantonaler Erschliessungsplan Ifenthalerstrasse, Umgestaltung und Sanierung, Hauptstrasse bis Feldweg / Behandlung der Einsprachen</offiziellerTitel>
+        <offizielleNummer>2015/1329</offizielleNummer>
+        <RRBNr>2015/1329</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-30-P.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2015-08-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632646</minX>
+        <minY>1247405</minY>
+        <maxX>2632685</maxX>
+        <maxY>1247521</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="2553c29c-7bc2-4ae3-9d6e-a73007d126a9">
+        <Titel>Erschliessungsplan</Titel>
+        <offiziellerTitel>Erschliessungsplan, Strassen- und Baulinienplan Grabenmattstrasse-Feldweg</offiziellerTitel>
+        <offizielleNummer>98-27-P</offizielleNummer>
+        <Typ>Erschliessungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Plaene/98-27-P.pdf</TextImWeb>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2012-05-01</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632440</minX>
+        <minY>1247243</minY>
+        <maxX>2632629</maxX>
+        <maxY>1247391</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="a78adb68-2617-4956-a94d-1d24041f3296">
+        <Titel>Gestaltungsplan mit Sonderbauvorschriften</Titel>
+        <offiziellerTitel>Zonen- und Gestaltungsplan mit SBV Golfplatz Weid Hauenstein</offiziellerTitel>
+        <offizielleNummer>98-25-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Plaene/98-25-P.pdf</TextImWeb>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2009-06-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632321</minX>
+        <minY>1247703</minY>
+        <maxX>2633016</maxX>
+        <maxY>1248060</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="712cc2c3-0d6b-4e8c-a325-1a86b55c26cd">
+        <Titel>Sonderbauvorschriften</Titel>
+        <offiziellerTitel>Zonen- und Gestaltungsplan Golfplatz Weid Hauenstein Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>98-25-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Sonderbauvorschriften/98-25-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2009-06-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632321</minX>
+        <minY>1247703</minY>
+        <maxX>2633016</maxX>
+        <maxY>1248060</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="7225f3d1-fd21-4972-b741-201488e06c50">
+        <Titel>Erschliessungs- und Gestaltungsplan</Titel>
+        <offiziellerTitel>Änderung Erschliessungs- und Gestaltungsplan Tongrube / Situation mit SBV</offiziellerTitel>
+        <offizielleNummer>98-32-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Plaene/98-32-P.pdf</TextImWeb>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2018-01-16</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2633138</minX>
+        <minY>1248132</minY>
+        <maxX>2633249</maxX>
+        <maxY>1248221</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="2754abb9-e651-4ee3-ae03-d298575da5e0">
+        <Titel>Sonderbauvorschriften</Titel>
+        <offiziellerTitel>Kantonaler Erschliessungs- und Gestaltungsplan Tongrube / Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>98-32-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Sonderbauvorschriften/98-32-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2018-01-16</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2633138</minX>
+        <minY>1248132</minY>
+        <maxX>2633249</maxX>
+        <maxY>1248221</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="3b2ffb94-4efb-4d42-b080-7d1de75cc60f">
+        <Titel>Teilzonenplan</Titel>
+        <offiziellerTitel>Änderung Kantonaler Teilzonenplan Abbau- und Deponiezone Tongrube/Inertstoffdeponie "Weid" Hauenstein</offiziellerTitel>
+        <offizielleNummer>98-31-P</offizielleNummer>
+        <Typ>Teilzonenplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Plaene/98-31-P.pdf</TextImWeb>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2018-01-16</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632827</minX>
+        <minY>1248055</minY>
+        <maxX>2632906</maxX>
+        <maxY>1248137</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="28622e7c-e29b-454f-a2a8-f5e0f00ddd67">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-lfenthal: "Zonen- und Gestaltungsplan Golfplatz Weid Hauenstein" / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2009/977</offizielleNummer>
+        <RRBNr>2009/977</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-24_25-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2009-06-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632321</minX>
+        <minY>1247703</minY>
+        <maxX>2633016</maxX>
+        <maxY>1248060</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="168d3114-d77f-49b0-bb71-094281cbbfe2">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-Ifenthal: Änderung kantonale Nutzungsplanung "Tongrube / lnertstoffdeponie Weid (Volumenerweiterung)" mit Umweltverträglichkeitsbericht</offiziellerTitel>
+        <offizielleNummer>2018/10</offizielleNummer>
+        <RRBNr>2018/10</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-31_36-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2018-01-16</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632827</minX>
+        <minY>1247818</minY>
+        <maxX>2633254</maxX>
+        <maxY>1248250</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="36197121-cec4-43fe-b5bf-5501ecfe100c">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-lfenthal: Teilzonenplan "Feldweg"</offiziellerTitel>
+        <offizielleNummer>2012/1886</offizielleNummer>
+        <RRBNr>2012/1886</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-28-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2012-09-18</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632461</minX>
+        <minY>1247304</minY>
+        <maxX>2632521</maxX>
+        <maxY>1247350</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="494dc7d5-dd90-491b-bbe1-de68667e29ab">
+        <Titel>Sonderbauvorschriften</Titel>
+        <offiziellerTitel>Golfplatz Weid Hauenstein, Ergänzung Zonenreglement</offiziellerTitel>
+        <offizielleNummer>98-24-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Sonderbauvorschriften/98-24-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2009-06-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632321</minX>
+        <minY>1247703</minY>
+        <maxX>2633016</maxX>
+        <maxY>1248060</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="b689b44f-373e-4aad-829a-0825e02a1e83">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-lfenthal: Teilzonenplan "Passhöhe" mit Zonenvorschriften</offiziellerTitel>
+        <offizielleNummer>2014/5</offizielleNummer>
+        <RRBNr>2014/5</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-29-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2014-01-14</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632440</minX>
+        <minY>1247792</minY>
+        <maxX>2632561</maxX>
+        <maxY>1247927</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="2eec9644-5959-457b-94a4-57f4e7aeb88a">
+        <Titel>Baureglement</Titel>
+        <offiziellerTitel>Kanton Solothurn Gemeinde Hauenstein-Ifenthal Baureglement</offiziellerTitel>
+        <offizielleNummer>098_BR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Reglemente/098_BR.pdf</TextImWeb>
+        <Abkuerzung>BR</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2014-01-14</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2629837</minX>
+        <minY>1245437</minY>
+        <maxX>2633358</maxX>
+        <maxY>1248275</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="f41ffd79-3851-4747-a9da-6876ced33471">
+        <Titel>Zonenreglement</Titel>
+        <offiziellerTitel>Kanton Solothurn Gemeinde Hauenstein-Ifenthal Revision der Ortsplanung Zonenreglement</offiziellerTitel>
+        <offizielleNummer>098_ZR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Reglemente/098_ZR.pdf</TextImWeb>
+        <Abkuerzung>ZR</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2009-06-09</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2629837</minX>
+        <minY>1245437</minY>
+        <maxX>2633358</maxX>
+        <maxY>1248275</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="9e99051b-9d3b-4289-b612-19a804ccd13d">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-Ifenthal: Revision der Ortsplanung / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2002/1624</offizielleNummer>
+        <RRBNr>2002/1624</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-14_14g-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2002-08-26</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2629837</minX>
+        <minY>1245437</minY>
+        <maxX>2633358</maxX>
+        <maxY>1248275</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="44732217-b6d0-4b52-a31b-9de27ea1b14c">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-lfenthal: Erschliessungsplan, Strassen- und Baulinienplan "Grabenmattstrasse - Feldweg"</offiziellerTitel>
+        <offizielleNummer>2012/846</offizielleNummer>
+        <RRBNr>2012/846</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-27-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2012-05-01</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2632440</minX>
+        <minY>1247243</minY>
+        <maxX>2632629</maxX>
+        <maxY>1247391</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="15ca42de-753b-436f-8ee8-02313f28f528">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Hauenstein-Ifenthal: Teilzonenplan Hauptstrasse</offiziellerTitel>
+        <offizielleNummer>2022/3</offizielleNummer>
+        <RRBNr>2022/3</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Entscheide/98-37-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2022-03-11</publiziertAb>
+        <Rechtsstatus>AenderungMitVorwirkung</Rechtsstatus>
+        <minX>2632797</minX>
+        <minY>1247087</minY>
+        <maxX>2633053</maxX>
+        <maxY>1247623</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="a806fd6b-89e2-47ce-a08b-149b11a85940">
+        <Titel>Teilzonenplan</Titel>
+        <offiziellerTitel>Teilzonenplan Haupstrasse</offiziellerTitel>
+        <offizielleNummer>98-37</offizielleNummer>
+        <Typ>Teilzonenplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/98-Hauenstein-Ifenthal/Plaene/98-37-P.pdf</TextImWeb>
+        <BFSNr>2491</BFSNr>
+        <Gemeindename>Hauenstein-Ifenthal</Gemeindename>
+        <publiziertAb>2100-12-31</publiziertAb>
+        <Rechtsstatus>AenderungMitVorwirkung</Rechtsstatus>
+        <minX>2632797</minX>
+        <minY>1247087</minY>
+        <maxX>2633053</maxX>
+        <maxY>1247623</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="b1985c2b-17cf-4242-8d9b-c04b6927ef1c">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg, Genehmigung des Erschliessungsplanes (Strassen-und Baulinienplan) über die Kantonsstrasse, Abschnitt Dorfplatz-Gipsfabrik</offiziellerTitel>
+        <offizielleNummer>1981/5721</offizielleNummer>
+        <RRBNr>1981/5721</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-15-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>1981-10-27</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639875</minX>
+        <minY>1254251</minY>
+        <maxX>2639893</maxX>
+        <maxY>1254312</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="0b8b1303-7ecb-4ac9-9748-251aace99f93">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg; Genehmigung des Erschliessungsplanes über die Hauptstrasse, Neugestaltung Hirschenplatz - Kirche</offiziellerTitel>
+        <offizielleNummer>1996/910</offizielleNummer>
+        <RRBNr>1996/910</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-24-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>1996-04-23</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639767</minX>
+        <minY>1254311</minY>
+        <maxX>2639876</maxX>
+        <maxY>1254511</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="c6abc877-9a22-4365-b1f1-8b9ebdcfb845">
+        <Titel>Zonenreglement</Titel>
+        <offiziellerTitel>Kienberg, Zonenreglement Gesamtplan</offiziellerTitel>
+        <offizielleNummer>099_ZR_G</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Reglemente/099_ZR_G.pdf</TextImWeb>
+        <Abkuerzung>ZR</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2014-09-23</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2638330</minX>
+        <minY>1252468</minY>
+        <maxX>2641395</maxX>
+        <maxY>1257027</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="32ffb875-9777-4b33-98ba-0536cef8329e">
+        <Titel>Bau- und Zonenreglement</Titel>
+        <offiziellerTitel>Gemeinde Kienberg, Bau- und Zonenreglement 2011</offiziellerTitel>
+        <offizielleNummer>099_BZR</offizielleNummer>
+        <Typ>Bau_Zonenreglement</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Reglemente/099_BZR.pdf</TextImWeb>
+        <Abkuerzung>BZR</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2011-03-01</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2638330</minX>
+        <minY>1252468</minY>
+        <maxX>2641395</maxX>
+        <maxY>1257027</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="c1ecdccd-5890-4645-a1b8-12403070676c">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Änderung Bauzonenplan "Hübelistrasse, GB Nr. 2001" / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2013/2157</offizielleNummer>
+        <RRBNr>2013/2157</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-45-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2013-11-26</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639951</minX>
+        <minY>1254410</minY>
+        <maxX>2640000</maxX>
+        <maxY>1254450</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="a604aa03-da5a-4948-9787-a69353be5c99">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Änderung Bauzonenplan "Alte Schulstrasse GB Nr. 827" / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2010/1590</offizielleNummer>
+        <RRBNr>2010/1590</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-35-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2010-09-07</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639884</minX>
+        <minY>1254267</minY>
+        <maxX>2639916</maxX>
+        <maxY>1254331</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="427adb38-41b0-4642-ac92-cd9dcd90849c">
+        <Titel>Sonderbauvorschriften</Titel>
+        <offiziellerTitel>Gestaltungsplan "Forellenhof", GB Nrn. 1833, 1837 / Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>99-13-S</offizielleNummer>
+        <Typ>Sonderbauvorschrift</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Sonderbauvorschriften/99-13-S.pdf</TextImWeb>
+        <Abkuerzung>SBV</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>1981-03-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639501</minX>
+        <minY>1254809</minY>
+        <maxX>2639613</maxX>
+        <maxY>1254929</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="c2ecd2cd-c9b2-4ffc-9634-9b1b9b591d29">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan "Forellenhof", GB Nrn. 1833, 1837 mit Sonderbauvorschriften</offiziellerTitel>
+        <offizielleNummer>99-13-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Plaene/99-13-P.pdf</TextImWeb>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>1981-03-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639501</minX>
+        <minY>1254809</minY>
+        <maxX>2639613</maxX>
+        <maxY>1254929</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="c0f71fc3-4c87-4196-91ed-d351d7266176">
+        <Titel>Gestaltungsplan</Titel>
+        <offiziellerTitel>Gestaltungsplan "Forellenhof", GB Nrn. 1833, 1837, Querprofile</offiziellerTitel>
+        <offizielleNummer>99-13a-P</offizielleNummer>
+        <Typ>Gestaltungsplan</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Plaene/99-13a-P.pdf</TextImWeb>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>1981-03-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639501</minX>
+        <minY>1254809</minY>
+        <maxX>2639613</maxX>
+        <maxY>1254929</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="195b3694-00ce-4a34-8e54-44427e0f6b72">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Änderung Bauzonenplan, Bereinigung Zonengrenze GB Nr. 725 / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2015/1312</offizielleNummer>
+        <RRBNr>2015/1312</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-46-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2015-08-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639625</minX>
+        <minY>1254798</minY>
+        <maxX>2639688</maxX>
+        <maxY>1254869</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="d40e512a-59a4-483c-acba-2cd4d174d42e">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Gestaltungsplan "Forellenhof" / Genehmigung</offiziellerTitel>
+        <offizielleNummer>1981/1528</offizielleNummer>
+        <RRBNr>1981/1528</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-13a-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>1981-03-31</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639501</minX>
+        <minY>1254809</minY>
+        <maxX>2639613</maxX>
+        <maxY>1254929</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="0bf284d4-fa5c-4118-b53a-660212343cff">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Revision der Ortsplanung / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2008/1057</offizielleNummer>
+        <RRBNr>2008/1057</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-27-33-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2008-06-17</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2638330</minX>
+        <minY>1252468</minY>
+        <maxX>2641395</maxX>
+        <maxY>1257027</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="2b40b122-4b4e-4c56-ad02-1403683327dc">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Gemeinde Kienberg: Anpassungen des Reglements über Grundeigentümerbeiträge und Gebühren, Bau- und Zonenreglements und Wasserreglements / Genehmigung</offiziellerTitel>
+        <offizielleNummer>2011/498</offizielleNummer>
+        <RRBNr>2011/498</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-BR-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2011-03-01</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2638330</minX>
+        <minY>1252468</minY>
+        <maxX>2641395</maxX>
+        <maxY>1257027</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="ab40e38d-ac18-4fea-9d40-375a69bdbd91">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Ueberführung des privaten Kilchtalweges ins öffentliche Flurwegnetz der Gemeinde -Teilgenehmigung / Behandlung einer Beschwerde</offiziellerTitel>
+        <offizielleNummer>2005/70</offizielleNummer>
+        <RRBNr>2005/70</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-26-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2005-01-11</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2638859</minX>
+        <minY>1254488</minY>
+        <maxX>2638940</maxX>
+        <maxY>1254719</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="24e2bc29-cd64-40cf-8ce8-b1d131a4d8fb">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Ausbau Saalstrasse, Abschnitt Alte Schulstrasse bis Gwiedemgut / Genehmigung Erschliessungsplan mit Rodungsbewilligung</offiziellerTitel>
+        <offizielleNummer>2009/2226</offizielleNummer>
+        <RRBNr>2009/2226</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-34-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>2009-12-07</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639892</minX>
+        <minY>1254111</minY>
+        <maxX>2639960</maxX>
+        <maxY>1254252</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument TID="e47908ae-8860-44ea-98a1-d75d4f5a1529">
+        <Titel>Regierungsratsbeschluss</Titel>
+        <offiziellerTitel>Kienberg: Genehmigung der Ortsplanung / Behandlung der Beschwerden</offiziellerTitel>
+        <offizielleNummer>1993/3341</offizielleNummer>
+        <RRBNr>1993/3341</RRBNr>
+        <Typ>Regierungsratsbeschluss</Typ>
+        <TextImWeb>https://geo.so.ch/docs/ch.so.arp.zonenplaene/Zonenplaene_pdf/99-Kienberg/Entscheide/99-21a-E.pdf</TextImWeb>
+        <Abkuerzung>RRB</Abkuerzung>
+        <BFSNr>2492</BFSNr>
+        <Gemeindename>Kienberg</Gemeindename>
+        <publiziertAb>1993-09-28</publiziertAb>
+        <Rechtsstatus>inKraft</Rechtsstatus>
+        <minX>2639498</minX>
+        <minY>1253971</minY>
+        <maxX>2640164</maxX>
+        <maxY>1255048</maxY>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Dokument>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="46cf22b9-6dd1-43ed-aea6-bc846642fc07">
+        <Name>Egerkingen</Name>
+        <BFSNr>2401</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="a13b7239-4ac3-47e2-a076-bb3fe9228c34">
+        <Name>Bolken</Name>
+        <BFSNr>2514</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="20d56011-7b0a-4ac2-849f-5f668b5ba118">
+        <Name>Lostorf</Name>
+        <BFSNr>2493</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="028b69a1-ecad-4223-88eb-46f872f25097">
+        <Name>Breitenbach</Name>
+        <BFSNr>2613</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="1299958f-ea37-4069-8bf7-0eb8ca7bebeb">
+        <Name>Biezwil</Name>
+        <BFSNr>2445</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="26813aff-7a53-4896-9976-9c6a4bd5a0bb">
+        <Name>Flumenthal</Name>
+        <BFSNr>2545</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="10f58981-daad-4906-a995-db3c9a2abf07">
+        <Name>Messen</Name>
+        <BFSNr>2457</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="d2766e38-2058-41a1-8ed1-825d14885e3d">
+        <Name>Niedergösgen</Name>
+        <BFSNr>2495</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="6e6babc6-08e9-41f2-ab9c-9c4bba3046dc">
+        <Name>Neuendorf</Name>
+        <BFSNr>2404</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="2390b85e-a424-451a-9f13-239b98c6ee99">
+        <Name>Unterramsern</Name>
+        <BFSNr>2463</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="76f1b92c-8312-4be1-8c46-9d97b6864d1e">
+        <Name>Schnottwil</Name>
+        <BFSNr>2461</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="7c228e85-79bd-49b4-97db-7fdcb0359392">
+        <Name>Kriegstetten</Name>
+        <BFSNr>2525</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="055af0b8-23ec-4cbe-b4b3-751d66df936c">
+        <Name>Büsserach</Name>
+        <BFSNr>2614</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="c3fe1c46-7536-4591-85bc-1b5ed361ddb7">
+        <Name>Grindel</Name>
+        <BFSNr>2617</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="f1b2a5d4-3434-4b3c-ab20-db78937d7fd0">
+        <Name>Halten</Name>
+        <BFSNr>2520</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="09e44866-ff08-4a95-b2df-79a7a13e16a4">
+        <Name>Hüniken</Name>
+        <BFSNr>2524</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="5e34b6ea-d7db-41fc-867b-cebe916a379a">
+        <Name>Lüterkofen-Ichertswil</Name>
+        <BFSNr>2455</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="1231a30e-0afb-411f-9649-a83d8da9a4a8">
+        <Name>Horriwil</Name>
+        <BFSNr>2523</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="e01fc0a5-9a8a-4830-a34a-410ef19224bc">
+        <Name>Gunzgen</Name>
+        <BFSNr>2578</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="196db276-c147-4889-9284-3d3d9db1f495">
+        <Name>Lohn-Ammannsegg</Name>
+        <BFSNr>2526</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="0728fedb-ce2d-45bb-b904-fb43da1763e5">
+        <Name>Deitingen</Name>
+        <BFSNr>2516</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="cf220e74-5f67-4ccc-97c7-117bcf96da44">
+        <Name>Beinwil (SO)</Name>
+        <BFSNr>2612</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="f58ab38e-b2d3-41d5-9bec-1cbc3bbb8fcb">
+        <Name>Grenchen</Name>
+        <BFSNr>2546</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="ec595ac6-7c2a-4cb6-9f12-9d08aada46c5">
+        <Name>Erschwil</Name>
+        <BFSNr>2615</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="f31d260f-74cb-41b6-bf11-d9149d49cc07">
+        <Name>Lüterswil-Gächliwil</Name>
+        <BFSNr>2456</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="37decdf6-ffa0-4598-83fe-53ff7cb32168">
+        <Name>Fulenbach</Name>
+        <BFSNr>2575</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="24cc2f62-4621-4e2f-9382-eff81fbea0bf">
+        <Name>Gerlafingen</Name>
+        <BFSNr>2519</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="6011eec6-13b9-40c1-b9e6-e36baddf2a76">
+        <Name>Luterbach</Name>
+        <BFSNr>2527</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="65e0fd74-1c1d-43e2-a967-d65480e6d04f">
+        <Name>Fehren</Name>
+        <BFSNr>2616</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="be977d84-aba7-4261-87cb-b3ce53804adc">
+        <Name>Bättwil</Name>
+        <BFSNr>2471</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="1fe513b1-4543-4a51-a836-5302c7f18580">
+        <Name>Bettlach</Name>
+        <BFSNr>2543</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="54cc12af-d867-47cf-844f-0b0c2cf68b69">
+        <Name>Obergerlafingen</Name>
+        <BFSNr>2528</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="fcf196b2-b89f-45bf-97f1-95180c805337">
+        <Name>Hauenstein-Ifenthal</Name>
+        <BFSNr>2491</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="5274f666-b1fe-4fe7-a093-24a36aaded4e">
+        <Name>Lüsslingen-Nennigkofen</Name>
+        <BFSNr>2464</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="313086ae-5d1f-4392-b5bb-e44e7a8fcf25">
+        <Name>Meltingen</Name>
+        <BFSNr>2620</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="de53cb43-15e3-4931-99c5-5b18ca2f08f8">
+        <Name>Zuchwil</Name>
+        <BFSNr>2534</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="bff55110-d406-492a-9bfe-31adce90c82c">
+        <Name>Oekingen</Name>
+        <BFSNr>2529</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="82431a58-55f0-4f83-9077-aaf25b047f98">
+        <Name>Himmelried</Name>
+        <BFSNr>2618</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="db14ad9e-ad82-43b7-bc4d-338bc245b027">
+        <Name>Kienberg</Name>
+        <BFSNr>2492</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="0f148818-b11f-4740-8c3b-cb8f7acee390">
+        <Name>Recherswil</Name>
+        <BFSNr>2530</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="a8b670b6-384c-4193-855a-c3738249ba8d">
+        <Name>Holderbank (SO)</Name>
+        <BFSNr>2425</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="ff9132fa-5eff-48cb-bd68-7366815d2771">
+        <Name>Kleinlützel</Name>
+        <BFSNr>2619</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="b7d5e0a4-b954-4ab4-917d-ee6acfc02675">
+        <Name>Subingen</Name>
+        <BFSNr>2532</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="31090ae8-ef79-49f6-b7d1-ef8a7b5ccbff">
+        <Name>Buchegg</Name>
+        <BFSNr>2465</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="14f2cb73-6b91-4145-a395-3e40e54b325a">
+        <Name>Büren (SO)</Name>
+        <BFSNr>2472</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="7d9d52e6-8d70-4a9f-81c6-f0e03c4d6cb6">
+        <Name>Welschenrohr-Gänsbrunnen</Name>
+        <BFSNr>2430</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="0d06db86-2114-4cec-b028-49b98bb22730">
+        <Name>Hägendorf</Name>
+        <BFSNr>2579</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="4d178541-c961-4b2c-89fc-544c33728c2f">
+        <Name>Kappel (SO)</Name>
+        <BFSNr>2580</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="a3d351e5-4bf0-4330-9a41-73d7ec87284a">
+        <Name>Obergösgen</Name>
+        <BFSNr>2497</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="8784eb08-92c9-49b1-9645-9b4297d76d79">
+        <Name>Drei Höfe</Name>
+        <BFSNr>2535</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="d8b5ba91-afa6-497f-aa12-e44e8522cbff">
+        <Name>Stüsslingen</Name>
+        <BFSNr>2499</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="b4777566-6119-459e-854c-b86a06032b48">
+        <Name>Nunningen</Name>
+        <BFSNr>2621</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="4382036b-a7e8-4315-b7cd-bd955d52b84b">
+        <Name>Zullwil</Name>
+        <BFSNr>2622</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="5a0484b1-3296-4038-93ca-dfa28d89e6d2">
+        <Name>Balm bei Günsberg</Name>
+        <BFSNr>2541</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="d71355a1-9a08-40bc-913f-a320c1b35d95">
+        <Name>Trimbach</Name>
+        <BFSNr>2500</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="2a4f1f07-7057-4a36-940d-5dccd92ff6f1">
+        <Name>Bellach</Name>
+        <BFSNr>2542</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="28e82424-4d6d-4277-9a3a-fa01c0ea8c41">
+        <Name>Dornach</Name>
+        <BFSNr>2473</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="6f759b09-1dc1-404d-9195-59bd10baf210">
+        <Name>Gempen</Name>
+        <BFSNr>2474</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="b8893a01-1b0c-4551-93ad-367f62bbe02c">
+        <Name>Feldbrunnen-St. Niklaus</Name>
+        <BFSNr>2544</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="117cbf02-fe5b-48f6-9bc7-b1a3115ab2b3">
+        <Name>Günsberg</Name>
+        <BFSNr>2547</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="5495f4ef-8625-4069-96df-05a32b248d1a">
+        <Name>Hochwald</Name>
+        <BFSNr>2475</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="d7fafc3c-1cff-463b-a3c4-d408a5584cc3">
+        <Name>Boningen</Name>
+        <BFSNr>2571</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="aef0c90a-064d-4031-a586-7868ec226250">
+        <Name>Hubersdorf</Name>
+        <BFSNr>2548</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="3357b578-0ae1-4907-817b-8e9fe6d4e9a3">
+        <Name>Härkingen</Name>
+        <BFSNr>2402</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="b9a1bca1-1175-457c-8596-c94b179d4993">
+        <Name>Starrkirch-Wil</Name>
+        <BFSNr>2584</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="2cb19f1e-16e2-424d-9b67-f1d648382531">
+        <Name>Hofstetten-Flüh</Name>
+        <BFSNr>2476</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="9493c5f5-4a06-4060-807e-964e1ab487ad">
+        <Name>Winznau</Name>
+        <BFSNr>2501</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="7b98adbf-10b5-4f80-9e37-006a9d6d3459">
+        <Name>Olten</Name>
+        <BFSNr>2581</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="70a04bd7-98c1-4c08-8ae4-d696e766b37b">
+        <Name>Kestenholz</Name>
+        <BFSNr>2403</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="a94d9fb5-67ee-4a8c-ba39-54882b203faf">
+        <Name>Kammersrohr</Name>
+        <BFSNr>2549</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="590fbb7e-c29e-456f-8a9b-c9a60ab8ccb1">
+        <Name>Rickenbach (SO)</Name>
+        <BFSNr>2582</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="81b4bfeb-581a-4ca0-8789-651efad0260f">
+        <Name>Oberbuchsiten</Name>
+        <BFSNr>2406</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="177098a4-1d1a-490c-8d3b-1aa32af58d64">
+        <Name>Däniken</Name>
+        <BFSNr>2572</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="6316ac8c-e471-4a56-8ee5-dd89ed2098b6">
+        <Name>Oensingen</Name>
+        <BFSNr>2407</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="50319ccf-9373-4c83-8e44-c23131fb75d0">
+        <Name>Wisen (SO)</Name>
+        <BFSNr>2502</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="07c447d4-cc73-4e3c-848e-49323821ed17">
+        <Name>Langendorf</Name>
+        <BFSNr>2550</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="c500eaa8-0793-40ab-b888-e431f3ca14de">
+        <Name>Dulliken</Name>
+        <BFSNr>2573</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="975f7d6c-f3ae-42aa-8142-c3df840f319c">
+        <Name>Wolfwil</Name>
+        <BFSNr>2408</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="ac7b3476-7898-4c08-aa7c-856794581104">
+        <Name>Eppenberg-Wöschnau</Name>
+        <BFSNr>2574</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="343bfc66-cd72-44d3-8f19-3aea7daa1a4c">
+        <Name>Lommiswil</Name>
+        <BFSNr>2551</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="b1598557-f8ef-41e0-a501-78489fc7a303">
+        <Name>Erlinsbach (SO)</Name>
+        <BFSNr>2503</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="0353878e-7211-4fe8-9f33-7198af50b4ff">
+        <Name>Rodersdorf</Name>
+        <BFSNr>2479</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="846a950c-a199-4a0b-abef-7a6b36352a84">
+        <Name>Schönenwerd</Name>
+        <BFSNr>2583</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="eea3e6e5-f122-4668-95ca-376d9940ef98">
+        <Name>Aedermannsdorf</Name>
+        <BFSNr>2421</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="cadc85f9-295d-464d-8f8c-34387465df77">
+        <Name>Metzerlen-Mariastein</Name>
+        <BFSNr>2477</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="13f5b838-c230-48ca-b5ba-ec7b58b911e4">
+        <Name>Nuglar-St. Pantaleon</Name>
+        <BFSNr>2478</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="cf98d2ef-6f85-4b73-ad76-69c80af61c6a">
+        <Name>Gretzenbach</Name>
+        <BFSNr>2576</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="45417649-f5d4-4355-9e4f-8eaa59388f77">
+        <Name>Balsthal</Name>
+        <BFSNr>2422</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="4cf18b56-2c78-442c-8b88-bb8c13ec2ac2">
+        <Name>Herbetswil</Name>
+        <BFSNr>2424</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="203abdf3-adae-4696-a234-138f75905de1">
+        <Name>Walterswil (SO)</Name>
+        <BFSNr>2585</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="3082e172-396e-437e-a29c-1167d9f96597">
+        <Name>Oberdorf (SO)</Name>
+        <BFSNr>2553</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="6c2c7fe7-fb44-4117-9ebb-2950ebb6f973">
+        <Name>Wangen bei Olten</Name>
+        <BFSNr>2586</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="b2b1c33e-67cd-47d1-bec8-66254b87d907">
+        <Name>Laupersdorf</Name>
+        <BFSNr>2426</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="e2d0c36e-1ec9-4ddd-8f74-927495364c0f">
+        <Name>Riedholz</Name>
+        <BFSNr>2554</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="19745a96-cdbc-4203-9d35-a917222bb2e8">
+        <Name>Niederbuchsiten</Name>
+        <BFSNr>2405</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="bb32a0bc-e780-484e-bc54-3027f2cc27fa">
+        <Name>Seewen</Name>
+        <BFSNr>2480</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="d8614d30-6ae3-4eae-aaa1-665c456e6c61">
+        <Name>Rüttenen</Name>
+        <BFSNr>2555</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="1445fe2c-802b-4b5c-b932-ba79495693f1">
+        <Name>Witterswil</Name>
+        <BFSNr>2481</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="accc6fee-cabe-442a-83bb-fc01002c95bf">
+        <Name>Selzach</Name>
+        <BFSNr>2556</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="9f1c01f4-17b6-46b9-826d-37bafb934303">
+        <Name>Matzendorf</Name>
+        <BFSNr>2427</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="b8d13f66-cbf9-433d-8a15-f8006bc22424">
+        <Name>Aeschi (SO)</Name>
+        <BFSNr>2511</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="6d0b4d63-3704-4198-bd43-4fcab2690753">
+        <Name>Solothurn</Name>
+        <BFSNr>2601</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="78888b28-f53a-4fcb-97d9-da00404f1e8a">
+        <Name>Mümliswil-Ramiswil</Name>
+        <BFSNr>2428</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="1dd474cb-d0fb-407b-bf6a-2307d0c56979">
+        <Name>Biberist</Name>
+        <BFSNr>2513</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="3bd97ef8-b163-4e3b-b038-a8d403f6a1ff">
+        <Name>Bärschwil</Name>
+        <BFSNr>2611</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="4a00ae30-96d0-4c31-beb4-3a24bbad768a">
+        <Name>Derendingen</Name>
+        <BFSNr>2517</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+      <SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde TID="9da585d7-9c17-4c33-9ae7-28a1019978e3">
+        <Name>Etziken</Name>
+        <BFSNr>2518</BFSNr>
+        <Kanton>Solothurn</Kanton>
+        <Kantonskuerzel>SO</Kantonskuerzel>
+      </SO_ARP_digiPlan_Publikation_20220402.Digiplan.Gemeinde>
+    </SO_ARP_digiPlan_Publikation_20220402.Digiplan>
+  </DATASECTION>
+</TRANSFER>

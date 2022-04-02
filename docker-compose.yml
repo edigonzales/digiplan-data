@@ -1,0 +1,21 @@
+version: '3'
+services:
+  gretl:
+    image: sogis/gretl:latest
+    entrypoint: /bin/sh -c
+    command: gretl
+    environment:
+      ORG_GRADLE_PROJECT_dbUriEdit: "jdbc:postgresql://edit-db/edit"
+      ORG_GRADLE_PROJECT_dbUserEdit: postgres
+      ORG_GRADLE_PROJECT_dbPwdEdit: postgres
+      ORG_GRADLE_PROJECT_gretlEnvironment: ${ORG_GRADLE_PROJECT_gretlEnvironment:-dev}
+    depends_on:
+      - edit-db
+  edit-db:
+    image: sogis/postgis:14-3.2
+    environment:
+      POSTGRES_DB: edit
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_HOST_AUTH_METHOD: md5
+    ports:
+      - "54321:5432"

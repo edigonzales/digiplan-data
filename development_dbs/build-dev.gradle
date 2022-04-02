@@ -1,0 +1,1031 @@
+import ch.so.agi.gretl.api.TransferSet
+import ch.so.agi.gretl.tasks.*
+import java.nio.file.Paths
+import de.undercouch.gradle.tasks.download.Download
+
+apply plugin: "de.undercouch.download"
+apply plugin: "ch.so.agi.gretl"
+
+ext {
+    def bucketSuffix = '-undefined'
+    if ( gretlEnvironment == 'production' ) {
+        bucketSuffix = ''
+    } else if ( gretlEnvironment == 'integration' || gretlEnvironment == 'dev' ) {
+        bucketSuffix = '-' + gretlEnvironment.substring(0, 3)
+    } else {
+        bucketSuffix = '-' + gretlEnvironment
+    }
+
+    pathToTempFolder = System.getProperty("java.io.tmpdir")
+    pathToUnzipFolder = Paths.get(pathToTempFolder, 'unzip_data')
+    pathToUserFolder = System.getProperty("user.dir")
+
+    iliModelNutzungsplanungNachfuehrung = "SO_ARP_Nutzungsplanung_Nachfuehrung_20201005"
+    dbSchemaNutzungsplanungNachfuehrung = "arp_nutzungplanung_v1"
+    dataFileNutzungsplanungNachfuehrung = "ch.so.arp.nutzungsplanung.xtf"
+
+    iliModelHoheitsgrenzen = "SO_Hoheitsgrenzen_Publikation_20170626"
+    dbSchemaHoheitsgrenzen = "agi_hoheitsgrenzen_pub"
+    dataFileHoheitsgrenzen = "ch.so.agi.hoheitsgrenzen.xtf"
+
+    iliModelDigiplan = "SO_ARP_digiPlan_Publikation_20220402"
+    dbSchemaDigiplan = "arp_digiplan_v1"
+    dataFileDigiplan = "ch.so.arp.digiplan.xtf"
+
+/* 
+    responsibleOfficesDataFile = "ch.so.agi.oereb_zustaendigestellen_V2_0.xtf"
+    responsibleOfficesDataSet = "zustaendigestellen"
+    cantonalLegalBasisDataFile = "ch.so.sk.oereb_gesetze_V2_0.xtf"
+    cantonalLegalBasisDataSet = "gesetze"
+    cantonalThemesDataFile = "ch.so.agi.oereb_themen_V2_0.xtf"
+    cantonalThemesDataSet = "themen"
+    cantonalLogosDataFile = "ch.so.agi.oereb_logo_V2_0.xtf"
+    cantonalLogosDataSet = "logo"
+    cantonalTextDataFile = "ch.so.agi.oereb_text_V2_0.xtf"
+    cantonalTextDataSet = "text"
+    availabilityDataFile = "ch.so.agi.oereb_verfuegbarkeit_V2_0.xtf"
+    availabilityDataSet = "verfuegbarkeit"
+    subunitOfLandRegisterDataFile = "ch.so.agi.oereb_grundbuchkreis_V2_0.xtf"
+    subunitOfLandRegisterDataSet = "grundbuchkreis"
+
+    federalLegalBasisDataFile = "OeREBKRM_V2_0_Gesetze_20210414.xml"
+    federalLegalBasisDataSet = "ch.admin.v_d.oereb_gesetze"
+    federalThemesDataFile = "OeREBKRM_V2_0_Themen_20220301.xml"
+    federalThemesDataSet = "ch.admin.v_d.oereb_themen"
+
+    cantonalConfigurationBaseUrl = "https://github.com/sogis-oereb/oereb-gretljobs/raw/main/development_dbs/"
+    federalConfigurationBaseUrl = "https://models.geo.admin.ch/V_D/OeREB/"
+
+    iliModelGroundwaterProtection = "PlanerischerGewaesserschutz_LV95_V1_1"
+    dbSchemaGroundwaterProtection = "afu_gewaesserschutz"
+    groundwaterProtectionDataFile = "ch.so.afu.gewaesserschutz_edit.xtf"
+    groundwaterProtectionBaseUrl = "https://github.com/sogis-oereb/oereb-gretljobs/raw/main/development_dbs/"
+
+    iliModelEinzelschutzNaturreservat = "SO_ARP_Naturreservate_20200609"
+    dbSchemaEinzelschutzNaturreservat = "arp_naturreservate"
+    einzelschutzNaturreservatDataFile = "ch.so.arp.naturreservate_edit.xtf"
+    einzelschutzNaturreservatBaseUrl = "https://github.com/sogis-oereb/oereb-gretljobs/raw/main/development_dbs/"
+
+    iliModelEinzelschutzGeotop = "SO_AFU_Geotope_20200312"
+    dbSchemaEinzelschutzGeotop = "afu_geotope"
+    einzelschutzGeotopDataFile = "ch.so.afu.geotope_edit.xtf"  
+    einzelschutzGeotopZipFile  = "ch.so.afu.geotope_edit_xtf_dev_oereb.zip" // Kopiert aus int-Umgebung, weil prod voller Fehler.
+
+    iliModelEinzelschutzDenkmal = "SO_ADA_Denkmal_20191128"
+    dbSchemaEinzelschutzDenkmal = "ada_denkmalschutz"
+    einzelschutzDenkmalDataFile = "ch.so.ada.denkmalschutz_edit.xtf"
+    einzelschutzDenkmalZipFile = "ch.so.ada.denkmalschutz_edit_xtf_dev_oereb.zip"
+
+    iliModelStaticForestPerimeters = "SO_AWJF_Statische_Waldgrenzen_20191119"
+    dbSchemaStaticForestPerimeters = "awjf_statische_waldgrenze"
+    staticForestPerimetersDataFile = "ch.so.awjf.statische_waldgrenze_edit.xtf"
+    staticForestPerimetersBaseUrl = "https://github.com/sogis-oereb/oereb-gretljobs/raw/main/development_dbs/"
+    
+    iliModelCadastralSurveying = "DM01AVSO24LV95"
+    dbSchemaCadastralSurveying = "agi_dm01avso24"
+    cadastralSurveyingDataSets = ["2401", "2457", "2546", "2581", "2601"]
+    cadastralSurveyingBaseUrl = "https://s3.eu-central-1.amazonaws.com/ch.so.agi.av.dm01avso24lv95/"
+
+    iliModelLandUsePlans = "SO_ARP_Nutzungsplanung_Nachfuehrung_20201005"
+    dbSchemaLandUsePlans = "arp_nutzungsplanung"
+    dbSchemaCantonalLandUsePlans = "arp_nutzungsplanung_kanton"
+    //landUsePlansDataSets = ["2401", "2403", "2405", "2407", "2408", "2456", "2457", "2473", "2474", "2475", "2476", "2479",  "2491", "2498", "2501", "2502", "2514", "2551", "2573", "2580", "2613", "2614", "2615", "2616"]
+    landUsePlansDataSets = ["2457"]
+    cantonalLandUsePlansDataSet = "kanton"
+    landUsePlansBaseUrl = "https://s3.eu-central-1.amazonaws.com/ch.so.agi.oereb.data4dev/nutzungsplanung/"
+*/
+}    
+
+/* Edit-DB */
+def editGroupName = "Edit-DB"
+
+task createSchema_NutzungsplanungNachfuehrung(type: Ili2pgImportSchema) {
+    group = editGroupName
+    description = "Erstellt Schema für NPL-NF"
+    database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+    models = iliModelNutzungsplanungNachfuehrung
+    dbschema = dbSchemaNutzungsplanungNachfuehrung
+    strokeArcs = true
+    defaultSrsCode = 2056
+    createMetaInfo = true
+    nameByTopic = true
+}
+
+task importData_NutzungsplanungNachfuehrung(type: Ili2pgImport, dependsOn: 'createSchema_NutzungsplanungNachfuehrung') {
+    group = editGroupName
+    description = "Importiert NPL-NF-Daten"
+    database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+    models = iliModelNutzungsplanungNachfuehrung
+    dbschema = dbSchemaNutzungsplanungNachfuehrung
+    dataFile = file(dataFileNutzungsplanungNachfuehrung)
+    disableValidation = true
+}
+
+task createSchema_Hoheitsgrenzen(type: Ili2pgImportSchema) {
+    group = editGroupName
+    description = "Erstellt Schema für Hoheitsgrenzen"
+    database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+    models = iliModelHoheitsgrenzen
+    dbschema = dbSchemaHoheitsgrenzen
+    strokeArcs = true
+    defaultSrsCode = 2056
+    createMetaInfo = true
+    nameByTopic = true
+}
+
+task importData_Hoheitsgrenzen(type: Ili2pgImport, dependsOn: 'createSchema_Hoheitsgrenzen') {
+    group = editGroupName
+    description = "Importiert Hoheitsgrenzen-Daten"
+    database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+    models = iliModelHoheitsgrenzen
+    dbschema = dbSchemaHoheitsgrenzen
+    dataFile = file(dataFileHoheitsgrenzen)
+    disableValidation = true
+}
+
+task createSchema_Digiplan(type: Ili2pgImportSchema) {
+    group = editGroupName
+    description = "Erstellt Schema für Digiplan"
+    database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+    models = iliModelDigiplan
+    modeldir = file(".")
+    dbschema = dbSchemaDigiplan
+    strokeArcs = true
+    defaultSrsCode = 2056
+    createMetaInfo = true
+    nameByTopic = false
+    createEnumTabs = true
+    createEnumTxtCol = true
+    createNumChecks = true
+    //createDateTimeChecks = true
+    //createTextChecks = true
+}
+
+task transferData_Digiplan(type: SqlExecutor, dependsOn: 'createSchema_Digiplan') {
+    group = editGroupName
+    description = "Datenumbau Digiplan"
+    database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+    sqlFiles = ["transfer.sql"]
+
+}
+
+task exportData_Digiplan(type: Ili2pgExport, dependsOn: 'transferData_Digiplan') {
+    group = editGroupName
+    description = "Exportiert Digiplan-Daten"
+    database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+    models = iliModelDigiplan
+    modeldir = file(".")
+    dbschema = dbSchemaDigiplan
+    dataFile = "ch.so.arp.digiplan.xtf"
+} 
+
+// task replaceResponsibleOfficesToEdit(type: Ili2pgImport, dependsOn: "downloadResponsibleOfficesEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelBasis
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), responsibleOfficesDataFile))
+//     disableValidation = true
+//     dataset = responsibleOfficesDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadCantonalLegalBasisEdit(type: Download) {
+//     group = editGroupName
+//     doFirst {
+//         println cantonalConfigurationBaseUrl + cantonalLegalBasisDataFile
+//     }
+//     description = "Download kantonale Gesetze und Verordnungen."
+//     src cantonalConfigurationBaseUrl + cantonalLegalBasisDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceCantonalLegalBasisToEdit(type: Ili2pgImport, dependsOn: "downloadCantonalLegalBasisEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelBasis
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalLegalBasisDataFile))
+//     disableValidation = true
+//     dataset = cantonalLegalBasisDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadFederalLegalBasisEdit(type: Download) {
+//     group = editGroupName
+//     doFirst {
+//         println federalConfigurationBaseUrl + federalLegalBasisDataFile
+//     }
+//     description = "Download Bundesgesetze und -verordnungen."
+//     src federalConfigurationBaseUrl + federalLegalBasisDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceFederalLegalBasisToEdit(type: Ili2pgImport, dependsOn: "downloadFederalLegalBasisEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelKonfiguration
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), federalLegalBasisDataFile))
+//     disableValidation = true
+//     dataset = federalLegalBasisDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadFederalThemesEdit(type: Download, dependsOn: "replaceFederalLegalBasisToEdit") {
+//     group = editGroupName
+//     doFirst {
+//         println cantonalConfigurationBaseUrl + federalThemesDataFile
+//     }
+//     description = "Download Bundesthemen."
+//     src federalConfigurationBaseUrl + federalThemesDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceFederalThemesToEdit(type: Ili2pgImport, dependsOn: "downloadFederalThemesEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelKonfiguration
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), federalThemesDataFile))
+//     disableValidation = true
+//     dataset = federalThemesDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadCantonalThemesEdit(type: Download, dependsOn: "replaceFederalThemesToEdit") {
+//     group = editGroupName
+//     doFirst {
+//         println cantonalConfigurationBaseUrl + cantonalThemesDataFile
+//     }
+//     description = "Download kantonale Themen."
+//     src cantonalConfigurationBaseUrl + cantonalThemesDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceCantonalThemesToEdit(type: Ili2pgImport, dependsOn: "downloadCantonalThemesEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelKonfiguration
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalThemesDataFile))
+//     disableValidation = true
+//     dataset = cantonalThemesDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadCantonalLogosEdit(type: Download) {
+//     group = editGroupName
+//     doFirst {
+//         println cantonalConfigurationBaseUrl + cantonalLogosDataFile
+//     }
+//     description = "Download kantonale Logo."
+//     src cantonalConfigurationBaseUrl + cantonalLogosDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceCantonalLogosToEdit(type: Ili2pgImport, dependsOn: "downloadCantonalLogosEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelKonfiguration
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalLogosDataFile))
+//     disableValidation = true
+//     dataset = cantonalLogosDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadCantonalTextEdit(type: Download) {
+//     group = editGroupName
+//     doFirst {
+//         println cantonalConfigurationBaseUrl + cantonalTextDataFile
+//     }
+//     description = "Download kantonale Text."
+//     src cantonalConfigurationBaseUrl + cantonalTextDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceCantonalTextToEdit(type: Ili2pgImport, dependsOn: "downloadCantonalTextEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelKonfiguration
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalTextDataFile))
+//     disableValidation = true
+//     dataset = cantonalTextDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadAvailabilityEdit(type: Download) {
+//     group = editGroupName
+//     doFirst {
+//         println cantonalConfigurationBaseUrl + availabilityDataFile
+//     }
+//     description = "Download kantonale Text."
+//     src cantonalConfigurationBaseUrl + availabilityDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceAvailabilityToEdit(type: Ili2pgImport, dependsOn: "downloadAvailabilityEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelKonfiguration
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), availabilityDataFile))
+//     disableValidation = true
+//     dataset = availabilityDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// task downloadSubunitOfLandRegisterEdit(type: Download) {
+//     group = editGroupName
+//     doFirst {
+//         println cantonalConfigurationBaseUrl + subunitOfLandRegisterDataFile
+//     }
+//     description = "Download kantonale Text."
+//     src cantonalConfigurationBaseUrl + subunitOfLandRegisterDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// task replaceSubunitOfLandRegisterToEdit(type: Ili2pgImport, dependsOn: "downloadSubunitOfLandRegisterEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelKonfiguration
+//     dbschema = dbSchemaKonfiguration
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), subunitOfLandRegisterDataFile))
+//     disableValidation = true
+//     dataset = subunitOfLandRegisterDataSet
+//     importBid = true
+//     importTid = true
+// }
+
+// // Gewässerschutz
+// task downloadDataGroundwaterProtection(type: Download) {
+//     group = editGroupName
+//     src groundwaterProtectionBaseUrl + groundwaterProtectionDataFile
+//     dest pathToTempFolder
+//     overwrite true
+//     doLast {
+//         println "File downloaded to: " + pathToTempFolder
+//     }        
+// }
+
+// task replaceDataGroundwaterProtection(type: Ili2pgImport, dependsOn: "downloadDataGroundwaterProtection") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelGroundwaterProtection
+//     dbschema = dbSchemaGroundwaterProtection
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), groundwaterProtectionDataFile))
+//     deleteData = true
+//     disableValidation = true
+// }
+
+// // Naturreservate (Einzelschutz)
+// task downloadDataEinzelschutzNaturreservat(type: Download) {
+//     group = editGroupName
+//     src einzelschutzNaturreservatBaseUrl + einzelschutzNaturreservatDataFile
+//     dest pathToTempFolder
+//     overwrite true
+//     doLast {
+//         println "File downloaded to: " + pathToTempFolder
+//     }        
+// }
+
+// task replaceDataEinzelschutzNaturreservat(type: Ili2pgImport, dependsOn: "downloadDataEinzelschutzNaturreservat") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelEinzelschutzNaturreservat
+//     dbschema = dbSchemaEinzelschutzNaturreservat
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), einzelschutzNaturreservatDataFile))
+//     deleteData = true
+//     disableValidation = true
+// }
+
+// // Geotope (Einzelschutz)
+// task downloadDataEinzelschutzGeotop(type: S3Download) {
+//     group = editGroupName
+//     accessKey = awsAccessKeyAgi
+//     secretKey = awsSecretAccessKeyAgi
+//     downloadDir = file(pathToTempFolder.toString())
+//     bucketName = "ch.so.agi.oereb.data4dev-restricted"
+//     key = einzelschutzGeotopZipFile
+//     endPoint = "https://s3.eu-central-1.amazonaws.com" 
+//     region = "eu-central-1"
+// }
+
+// task unzipEinzelschutzGeotop(type: Copy, dependsOn: "downloadDataEinzelschutzGeotop") {
+//     group = editGroupName
+//     from zipTree(Paths.get(pathToTempFolder.toString(), einzelschutzGeotopZipFile))
+//     into file(pathToUnzipFolder)
+//     include "**/*.xtf"
+// }
+
+// task replaceDataEinzelschutzGeotop(type: Ili2pgImport, dependsOn: "unzipEinzelschutzGeotop") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelEinzelschutzGeotop
+//     dbschema = dbSchemaEinzelschutzGeotop
+//     dataFile = file(Paths.get(pathToUnzipFolder.toString(), einzelschutzGeotopDataFile))
+//     deleteData = true
+//     disableValidation = true
+// }
+
+// // Denkmal (Einzelschutz)
+// task downloadDataEinzelschutzDenkmal(type: S3Download) {
+//     group = editGroupName
+//     accessKey = awsAccessKeyAgi
+//     secretKey = awsSecretAccessKeyAgi
+//     downloadDir = file(pathToTempFolder.toString())
+//     bucketName = "ch.so.agi.oereb.data4dev-restricted"
+//     key = einzelschutzDenkmalZipFile
+//     endPoint = "https://s3.eu-central-1.amazonaws.com" 
+//     region = "eu-central-1"
+// }
+
+// task unzipEinzelschutzDenkmal(type: Copy, dependsOn: "downloadDataEinzelschutzDenkmal") {
+//     group = editGroupName
+//     from zipTree(Paths.get(pathToTempFolder.toString(), einzelschutzDenkmalZipFile))
+//     into file(".")
+//     into file(pathToUnzipFolder)
+//     include "**/*.xtf"
+// }
+
+// task replaceDataEinzelschutzDenkmal(type: Ili2pgImport, dependsOn: "unzipEinzelschutzDenkmal") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelEinzelschutzDenkmal
+//     dbschema = dbSchemaEinzelschutzDenkmal
+//     dataFile = file(Paths.get(pathToUnzipFolder.toString(), einzelschutzDenkmalDataFile))
+//     deleteData = true
+//     disableValidation = true
+// }
+
+// // Nutzungsplanung (Gemeinde)
+
+// landUsePlansDataSets.each { landUsePlansDataSet ->
+//     def dataSet = landUsePlansDataSet.toString()
+//     task "downloadDataLandUsePlans_$dataSet"(type: Download) {
+//         group = editGroupName
+//         src landUsePlansBaseUrl + dataSet + ".xtf"
+//         dest pathToTempFolder
+//         overwrite true
+
+//         doLast {
+//             println "File downloaded to: " + pathToTempFolder
+//         }        
+//     }
+
+//     task "replaceDataLandUsePlans_$dataSet"(type: Ili2pgReplace, dependsOn: "downloadDataLandUsePlans_$dataSet") {
+//         group = editGroupName
+//         database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//         models = iliModelLandUsePlans
+//         dbschema = dbSchemaLandUsePlans
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), dataSet + ".xtf"))
+//         dataset = dataSet
+//         disableValidation = true
+//     }
+// }
+
+// task replaceDataLandUsePlans() {
+//     group = editGroupName
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('replaceDataLandUsePlans_') }
+//     }
+// }
+
+// // Nutzungsplanung (Kanton)
+// task downloadCantonalDataLandUsePlans(type: Download) {
+//     group = editGroupName
+//     src landUsePlansBaseUrl + cantonalLandUsePlansDataSet + ".xtf"
+//     dest pathToTempFolder
+//     overwrite true
+
+//     doLast {
+//         println "File downloaded to: " + pathToTempFolder
+//     }        
+// }
+
+// task replaceCantonalDataLandUsePlans(type: Ili2pgImport, dependsOn: "downloadCantonalDataLandUsePlans") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelLandUsePlans
+//     dbschema = dbSchemaCantonalLandUsePlans
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalLandUsePlansDataSet + ".xtf"))
+//     deleteData = true
+//     disableValidation = true
+// }
+
+// // Statische Waldgrenzen
+// task downloadDataStaticForestPerimetersEdit(type: Download) {
+//     group = editGroupName
+//     src staticForestPerimetersBaseUrl + staticForestPerimetersDataFile
+//     dest pathToTempFolder
+//     overwrite true
+//     doLast {
+//         println "File downloaded to: " + pathToTempFolder
+//     }
+// }
+
+// task replaceDataStaticForestPerimetersToEdit(type: Ili2pgImport, dependsOn: "downloadDataStaticForestPerimetersEdit") {
+//     group = editGroupName
+//     database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//     models = iliModelStaticForestPerimeters
+//     dbschema = dbSchemaStaticForestPerimeters
+//     dataFile = file(Paths.get(pathToTempFolder.toString(), staticForestPerimetersDataFile))
+//     deleteData = true
+//     disableValidation = true
+// }
+
+// // Amtliche Vermessung
+
+// cadastralSurveyingDataSets.each { cadastralSurveyingDataSet ->
+//     def dataSet = cadastralSurveyingDataSet.toString()
+//     task "downloadDataCadastralSurveying_$dataSet"(type: Download) {
+//         group = editGroupName
+//         src cadastralSurveyingBaseUrl + dataSet + "00.zip"
+//         dest pathToTempFolder
+//         overwrite true
+
+//         doLast {
+//             println "File downloaded to: " + pathToTempFolder
+//         }        
+//     }
+
+//     task "unzipCadastralSurveying_$dataSet"(type: Copy, dependsOn: "downloadDataCadastralSurveying_$dataSet") {
+//         group = editGroupName
+//         from zipTree(Paths.get(pathToTempFolder.toString(), dataSet + "00.zip"))
+//         into file(pathToUnzipFolder)
+//         //include "**/*.itf"
+//         include {
+//             it.file.name.toLowerCase().endsWith("itf")
+//         }         
+//         rename { String fileName ->
+//             return fileName.toLowerCase()
+//         }
+//     }
+
+//     task "replaceCadastralSurveying_$dataSet"(type: Ili2pgReplace, dependsOn: "unzipCadastralSurveying_$dataSet") {
+//         group = editGroupName
+//         database = [dbUriEdit, dbUserEdit, dbPwdEdit]
+//         models = iliModelCadastralSurveying
+//         dbschema = dbSchemaCadastralSurveying
+//         dataFile = file(Paths.get(pathToUnzipFolder.toString(), dataSet + "00.itf"))
+//         dataset = dataSet
+//         disableValidation = true
+//     }
+// }
+
+// task replaceCadastralSurveying() {
+//     group = editGroupName
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('replaceCadastralSurveying_') }
+//     }
+// }
+
+// /* OEREB-DB */
+
+// def oerebGroupName = "ÖREB-DB"
+// def dbSchemas = ["stage", "live"]
+
+// // Bundesgesetze
+// task downloadFederalLegalBasisData(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println federalConfigurationBaseUrl + federalLegalBasisDataFile
+//     }
+//     description = "Download Bundesgesetze."
+//     src federalConfigurationBaseUrl + federalLegalBasisDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importFederalLegalBasisDataToOereb_$schema"(type: Ili2pgUpdate, dependsOn: "downloadFederalLegalBasisData") {
+//         group = oerebGroupName
+//         description = "Import Bundesgesetze in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = federalLegalBasisDataSet
+//         models = iliModelBasis
+//         disableValidation = false
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), federalLegalBasisDataFile))
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importFederalLegalBasisToOereb() {
+//     group = oerebGroupName
+//     description = "Import Bundesgesetze in beide Schemas."
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importFederalLegalBasisDataToOereb_') }
+//     }    
+// }
+
+// // Bundesthemen
+// task downloadFederalThemes(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println federalConfigurationBaseUrl + federalThemesDataFile
+//     }
+//     description = "Download Bundesthemen."
+//     src federalConfigurationBaseUrl + federalThemesDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importFederalThemesToOereb_$schema"(type: Ili2pgUpdate, dependsOn: "downloadFederalThemes") {
+//         group = oerebGroupName
+//         description = "Import Bundesthemen in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = federalThemesDataSet
+//         models = iliModelKonfiguration
+//         disableValidation = false
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), federalThemesDataFile))
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importFederalThemesToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import Bundesthemen."
+//     mustRunAfter "importFederalLegalBasisToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importFederalThemesToOereb_') }
+//     }    
+// }
+
+// // Bundeslogos
+// task downloadFederalLogos(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println federalConfigurationBaseUrl + federalLogosDataFile
+//     }
+//     description = "Download Bundeslogos."
+//     src federalConfigurationBaseUrl + federalLogosDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importFederalLogosToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadFederalLogos") {
+//         group = oerebGroupName
+//         description = "Import Bundesthemen in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = federalLogosDataSet
+//         models = iliModelKonfiguration
+//         disableValidation = false
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), federalLogosDataFile))
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importFederalLogosToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import Bundeslogos."
+//     mustRunAfter "importFederalThemesToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importFederalLogosToOereb_') }
+//     }    
+// }
+
+// // Bundestexte
+// task downloadFederalText(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println federalConfigurationBaseUrl + federalTextDataFile
+//     }
+//     description = "Download Bundetexte."
+//     src federalConfigurationBaseUrl + federalTextDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importFederalTextToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadFederalText") {
+//         group = oerebGroupName
+//         description = "Import Bundestexte in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = federalTextDataSet
+//         models = iliModelKonfiguration
+//         disableValidation = false
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), federalTextDataFile))
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importFederalTextToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import Bundestexte."
+//     mustRunAfter "importFederalLogosToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importFederalTextToOereb_') }
+//     }    
+// }
+
+// // Kantonale zuständige Stellen
+// task downloadResponsibleOfficesOereb(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println cantonalDataBaseUrl + responsibleOfficesDataFile
+//     }
+//     description = "Download zuständige, kantonale Stellen."
+//     src cantonalDataBaseUrl + responsibleOfficesDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+
+//     task "importResponsibleOfficesToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadResponsibleOfficesOereb") {
+//         group = oerebGroupName
+//         description = "Import zuständige, kantonale Stellen in das Schema $schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = responsibleOfficesDataSet
+//         models = iliModelBasis
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), responsibleOfficesDataFile))
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importResponsibleOfficesToOereb() {
+//     group = oerebGroupName
+//     description = "Import zuständige, kantonale Stellen in beide Schemas."
+//     mustRunAfter "importFederalTextToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importResponsibleOfficesToOereb_') }
+//     }    
+// }
+
+// // Kantonale Gesetze
+// task downloadCantonalLegalBasis(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println cantonalDataBaseUrl + cantonalLegalBasisDataFile
+//     }
+//     description = "Download kantonale Gesetze."
+//     src cantonalDataBaseUrl + cantonalLegalBasisDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// // FIXME: Bug (?) in ili2db bei Update
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importCantonalLegalBasisToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadCantonalLegalBasis") {
+//         group = oerebGroupName
+//         description = "Import der kantonalen Gesetze in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = cantonalLegalBasisDataSet
+//         models = iliModelBasis
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalLegalBasisDataFile))
+//         disableValidation = true
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importCantonalLegalBasisToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import der kantonalen Gesetze."
+//     mustRunAfter "importResponsibleOfficesToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importCantonalLegalBasisToOereb_') }
+//     }    
+// }
+
+// // Kantonale Themen
+// task downloadCantonalThemes(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println cantonalDataBaseUrl + cantonalThemesDataFile
+//     }
+//     description = "Download kantonale Themen."
+//     src cantonalDataBaseUrl + cantonalThemesDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importCantonalThemesToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadCantonalThemes") {
+//         group = oerebGroupName
+//         description = "Import der kantonalen Themen in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = cantonalThemesDataSet
+//         models = iliModelKonfiguration
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalThemesDataFile))
+//         disableValidation = true
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importCantonalThemesToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import der kantonalen Themen."
+//     mustRunAfter "importCantonalLegalBasisToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importCantonalThemesToOereb_') }
+//     }    
+// }
+
+// // Kantonale Logos
+// task downloadCantonalLogos(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println cantonalDataBaseUrl + cantonalLogosDataFile
+//     }
+//     description = "Download kantonale Logos."
+//     src cantonalDataBaseUrl + cantonalLogosDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importCantonalLogosToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadCantonalLogos") {
+//         group = oerebGroupName
+//         description = "Import der kantonalen Logos in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = cantonalLogosDataSet
+//         models = iliModelKonfiguration
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalLogosDataFile))
+//         disableValidation = true
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importCantonalLogosToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import der kantonalen Logos."
+//     mustRunAfter "importCantonalThemesToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importCantonalLogosToOereb_') }
+//     }    
+// }
+
+// // Kantonale Texte
+// task downloadCantonalText(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println cantonalDataBaseUrl + cantonalTextDataFile
+//     }
+//     description = "Download kantonale Texte."
+//     src cantonalDataBaseUrl + cantonalTextDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importCantonalTextToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadCantonalText") {
+//         group = oerebGroupName
+//         description = "Import der kantonalen Text in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = cantonalTextDataSet
+//         models = iliModelKonfiguration
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), cantonalTextDataFile))
+//         disableValidation = true
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importCantonalTextToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import der kantonalen Texte."
+//     mustRunAfter "importCantonalLogosToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importCantonalTextToOereb_') }
+//     }    
+// }
+
+// // Verfügbarkeit
+// task downloadAvailability(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println cantonalDataBaseUrl + availabilityDataFile
+//     }
+//     description = "Download Verfügbarkeit."
+//     src cantonalDataBaseUrl + availabilityDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importAvailabilityToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadAvailability") {
+//         group = oerebGroupName
+//         description = "Import der Verfügbarkeit in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = availabilityDataSet
+//         models = iliModelKonfiguration
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), availabilityDataFile))
+//         disableValidation = true
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importAvailabilityToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import der Verfügbarkeit."
+//     mustRunAfter "importCantonalTextToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importAvailabilityToOereb_') }
+//     }    
+// }
+
+// // Grundbuchkreise
+// task downloadSubunitOfLandRegister(type: Download) {
+//     group = oerebGroupName
+//     doFirst {
+//         println cantonalDataBaseUrl + subunitOfLandRegisterDataFile
+//     }
+//     description = "Download Verfügbarkeit."
+//     src cantonalDataBaseUrl + subunitOfLandRegisterDataFile
+//     dest pathToTempFolder
+//     overwrite true
+// }
+
+// dbSchemas.each { dbSchema ->
+//     def schema = dbSchema.toString()
+//     task "importSubunitOfLandRegisterToOereb_$schema"(type: Ili2pgReplace, dependsOn: "downloadSubunitOfLandRegister") {
+//         group = oerebGroupName
+//         description = "Import der Verfügbarkeit in das $schema Schema"
+//         database = [dbUriOerebV2, dbUserOerebV2, dbPwdOerebV2]
+//         dbschema = schema
+//         dataset = subunitOfLandRegisterDataSet
+//         models = iliModelKonfiguration
+//         dataFile = file(Paths.get(pathToTempFolder.toString(), subunitOfLandRegisterDataFile))
+//         disableValidation = true
+//         importBid = true
+//         importTid = true
+//     }
+// }
+
+// task importSubunitOfLandRegisterToOereb() {
+//     group = oerebGroupName
+//     description = "Aggregationstask für Import der Grundbuchkreise."
+//     mustRunAfter "importAvailabilityToOereb"
+
+//     dependsOn {
+//         tasks.findAll { task -> task.name.startsWith('importSubunitOfLandRegisterToOereb_') }
+//     }    
+// }
+
+// task setupOerebDb() {
+//     group = oerebGroupName
+//     description = "Importiert sämtliche notwendigen Konfigurationen, Gesetze, Logos, Texte etc."
+//     dependsOn "importFederalLegalBasisToOereb", "importFederalThemesToOereb", "importFederalLogosToOereb", "importFederalTextToOereb",
+//         "importResponsibleOfficesToOereb", "importCantonalLegalBasisToOereb", "importCantonalThemesToOereb",
+//         "importCantonalLogosToOereb", "importCantonalTextToOereb", "importAvailabilityToOereb", "importSubunitOfLandRegisterToOereb"
+
+// }

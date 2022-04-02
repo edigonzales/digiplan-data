@@ -1,0 +1,60 @@
+INTERLIS 2.3;
+
+/** !!------------------------------------------------------------------------------
+ *  !! Version    | wer | Änderung
+ *  !!------------------------------------------------------------------------------
+ *  !! 2022-04-02 | sz  | Ersterfassung
+ *  !!==============================================================================
+ */
+!!@ technicalContact="mailto:agi@bd.so.ch"
+MODEL SO_ARP_digiPlan_Publikation_20220402 (de)
+AT "https://geo.so.ch/models/AGI"
+VERSION "2022-04-02"  =
+
+  TOPIC Digiplan =
+    OID AS INTERLIS.UUIDOID;
+    
+    CLASS Dokument =
+      Titel : MANDATORY TEXT*1000;
+      offiziellerTitel : MANDATORY TEXT*1000;
+      offizielleNummer : TEXT*1000;
+      RRBNr : TEXT*20;
+      Typ : (
+        !!@ ili2db.dispName = "Regierungsratsbeschluss"
+        Regierungsratsbeschluss,
+        !!@ ili2db.dispName = "Gestaltungsplan"
+        Gestaltungsplan,
+        !!@ ili2db.dispName = "Erschliessungsplan"
+        Erschliessungsplan,
+        !!@ ili2db.dispName = "Sonderbauvorschrift"
+        Sonderbauvorschrift,
+        !!@ ili2db.dispName = "Teilzonenplan"
+        Teilzonenplan,
+        !!@ ili2db.dispName = "Bau-/Zonenreglement"
+        Bau_Zonenreglement,
+        !!@ ili2db.dispName = "undefiniert"
+        undefiniert
+      );
+      TextImWeb : URI;
+      Abkuerzung : TEXT*20;
+      BFSNr : MANDATORY 1 .. 9999;
+      Gemeindename : TEXT*1000;
+      publiziertAb : MANDATORY INTERLIS.XMLDate;
+      publiziertBis : INTERLIS.XMLDate;
+      Rechtsstatus : MANDATORY TEXT*100;
+      minX : 2000000 .. 3000000;
+      minY : 1000000 .. 2000000;
+      maxX : 2000000 .. 3000000;
+      maxY : 1000000 .. 2000000;
+    END Dokument;
+
+    CLASS Gemeinde = 
+      Name : MANDATORY TEXT*1000;
+      BFSNr : MANDATORY 1 .. 9999;
+      Kanton : MANDATORY TEXT*1000;
+      Kantonskuerzel : MANDATORY TEXT*2;
+    END Gemeinde;
+
+  END Digiplan;
+
+END SO_ARP_digiPlan_Publikation_20220402.

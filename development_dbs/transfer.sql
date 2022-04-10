@@ -183,6 +183,7 @@ dokumente_geometrie_bbox AS
     GROUP BY
         t_id 
 )
+
 INSERT INTO 
     arp_digiplan_v1.dokument 
     (
@@ -201,8 +202,12 @@ INSERT INTO
         minx,
         miny,
         maxx,
-        maxy
+        maxy,
+        avgx,
+        avgy,
+        ascale
     )
+
     SELECT 
         --dokument.t_id,
         --dokument.t_ili_tid,
@@ -235,7 +240,21 @@ INSERT INTO
         dokumente_geometrie_bbox.xmin,
         dokumente_geometrie_bbox.ymin,
         dokumente_geometrie_bbox.xmax,
-        dokumente_geometrie_bbox.ymax
+        dokumente_geometrie_bbox.ymax,
+        CAST((dokumente_geometrie_bbox.xmax - dokumente_geometrie_bbox.xmin)/2 + dokumente_geometrie_bbox.xmin AS int4) AS avgx,
+        CAST((dokumente_geometrie_bbox.ymax - dokumente_geometrie_bbox.ymin)/2 + dokumente_geometrie_bbox.ymin AS int4) AS avgy,
+        CASE 
+            WHEN (dokumente_geometrie_bbox.xmax - dokumente_geometrie_bbox.xmin) > (dokumente_geometrie_bbox.ymax - dokumente_geometrie_bbox.ymin) THEN 
+                CASE 
+                    WHEN (dokumente_geometrie_bbox.xmax - dokumente_geometrie_bbox.xmin)*3 < 2000 THEN 2000
+                    ELSE CAST((dokumente_geometrie_bbox.xmax - dokumente_geometrie_bbox.xmin)*3 AS int4)
+                END
+            ELSE
+                CASE 
+                    WHEN (dokumente_geometrie_bbox.ymax - dokumente_geometrie_bbox.ymin)*3 < 2000 THEN 2000
+                    ELSE CAST((dokumente_geometrie_bbox.ymax - dokumente_geometrie_bbox.ymin)*3 AS int4)
+                END
+        END AS ascale
     FROM 
         arp_nutzungplanung_v1.rechtsvorschrften_dokument AS dokument 
         LEFT JOIN dokumente_geometrie_bbox 
@@ -260,5 +279,3 @@ SELECT
 FROM 
     agi_hoheitsgrenzen_pub.hoheitsgrenzen_gemeindegrenze 
 ;
-
-

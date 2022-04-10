@@ -161,7 +161,8 @@ task createSchema_Digiplan(type: Ili2pgImportSchema) {
     //createTextChecks = true
 }
 
-task transferData_Digiplan(type: SqlExecutor, dependsOn: 'createSchema_Digiplan') {
+//task transferData_Digiplan(type: SqlExecutor, dependsOn: 'createSchema_Digiplan') {
+task transferData_Digiplan(type: SqlExecutor) {
     group = editGroupName
     description = "Datenumbau Digiplan"
     database = [dbUriEdit, dbUserEdit, dbPwdEdit]

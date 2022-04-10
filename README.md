@@ -1,7 +1,7 @@
 # digiplan-data
 
 ```
-docker-compose run --user $UID --rm -v $PWD/development_dbs:/home/gradle/project gretl "sleep 20 && cd /home/gradle && gretl -b project/build-dev.gradle importData_NutzungsplanungNachfuehrung importData_Hoheitsgrenzen createSchema_Digiplan"
+docker-compose run --user $UID --rm -v $PWD/development_dbs:/home/gradle/project gretl "sleep 20 && cd /home/gradle && gretl -b project/build-dev.gradle createSchema_NutzungsplanungNachfuehrung importData_NutzungsplanungNachfuehrung createSchema_Hoheitsgrenzen importData_Hoheitsgrenzen createSchema_Digiplan exportData_Digiplan"
 ```
 
 ```

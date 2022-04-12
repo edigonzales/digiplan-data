@@ -49,6 +49,7 @@ VERSION "2022-04-02"  =
       avgX : 2000000 .. 3000000;
       avgY : 1000000 .. 2000000;
       scale : 0 .. 10000000;
+      searchText : TEXT;
     END Dokument;
 
     CLASS Gemeinde = 

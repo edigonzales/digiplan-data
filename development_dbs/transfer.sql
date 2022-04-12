@@ -205,9 +205,9 @@ INSERT INTO
         maxy,
         avgx,
         avgy,
-        ascale
+        ascale,
+        searchtext
     )
-
     SELECT 
         --dokument.t_id,
         --dokument.t_ili_tid,
@@ -254,7 +254,8 @@ INSERT INTO
                     WHEN (dokumente_geometrie_bbox.ymax - dokumente_geometrie_bbox.ymin)*3 < 2000 THEN 2000
                     ELSE CAST((dokumente_geometrie_bbox.ymax - dokumente_geometrie_bbox.ymin)*3 AS int4)
                 END
-        END AS ascale
+        END AS ascale,
+        concat(dokument.gemeinde, ', ', gemeinde.gemeindename, ', ', dokument.publiziertab, ', ', dokument.offiziellenr, ', ', dokument.offiziellertitel) AS searchText
     FROM 
         arp_nutzungplanung_v1.rechtsvorschrften_dokument AS dokument 
         LEFT JOIN dokumente_geometrie_bbox 
@@ -277,5 +278,12 @@ SELECT
     'Solothurn'::TEXT AS kanton,
     'SO'::TEXT AS kantonskuerzel
 FROM 
-    agi_hoheitsgrenzen_pub.hoheitsgrenzen_gemeindegrenze 
+    agi_hoheitsgrenzen_pub.hoheitsgrenzen_gemeindegrenze AS gemeindegrenze INNER JOIN
+    (
+        SELECT 
+            DISTINCT bfsnr
+        FROM 
+            arp_digiplan_v1.dokument
+    ) AS foo
+    ON foo.bfsnr = gemeindegrenze.bfs_gemeindenummer
 ;
